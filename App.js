@@ -26,7 +26,7 @@ class App extends React.Component{
     const {data,country}=this.state
     return(
       <div className='main-container'>
-        <img  src= {Logo} alt='logo'/>
+        <img className='img' src= {Logo} alt='logo'/>
         <br/> <br/> <br/>
         <Cards data={data} />
         <CountryPicker onCountryChange={this.onCountryChange} />

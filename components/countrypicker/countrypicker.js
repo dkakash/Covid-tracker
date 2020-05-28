@@ -16,7 +16,7 @@ const CountryPicker = (props)=>{
     return (
     <div className='select-container' >
         {countries ? <FormControl >
-            <span><FormLabel><Typography>Country :   </Typography></FormLabel>
+            <span><FormLabel>Country :   </FormLabel>
             <NativeSelect onChange={(e)=>props.onCountryChange(e.target.value)}> 
                 <option value=''>Global</option>
                  {/* {countires.map((country,i)=>(<option key={i}>{country}</option>))} */}

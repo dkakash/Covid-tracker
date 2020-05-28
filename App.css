@@ -44,3 +44,11 @@
   align-items: center;
   flex-direction: column;
 }
+
+@media (max-width:770px){
+  .img{
+    width:85%;
+    margin-top:5% ;
+
+  }
+}
